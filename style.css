@@ -1,0 +1,56 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 300px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 300px auto;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #444444;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 2px groove rgb(255, 255, 255);
+  width: 300px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.links ul li {
+  list-style: none;
+  margin: 20px;
+  text-align: center;
+}
+
+
+.links a {
+  font-size: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #444444;
+  transition: 0.5s;
+  list-style-type: none;
+  
+
+}
+
+.card a:hover {
+  background-color: rgb(255, 123, 0);
+
+}
+
+.rounded-image img {
+  width: auto;
+  height: 300px;
+  border-radius: 50%;
+}
